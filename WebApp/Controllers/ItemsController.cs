@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using WebApp.Model;
+using WebApp.Repo;
 
 namespace WebApp.Controllers
 {
@@ -16,7 +18,7 @@ namespace WebApp.Controllers
 
         // GET / items
         [HttpGet]
-        public IEnumberable<Item> GetItems()
+        public IEnumerable<Item> GetItems()
         { // Get all Items
             var items = repository.GetItems(); // initialize method from Repo
             return items;
