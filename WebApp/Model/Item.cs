@@ -1,12 +1,12 @@
 using System;
 
-namespace WebApp.Model
+namespace WebApp.Model;
+
+public record Item
 {
-    public record Item
-    {
-        public Guid Id {get; init;}
-        public string Name {get; init;}
-        public decimal Price {get; init;}
-        public DateTimeOffset CreatedDate {get; init;}
-    }
+    public Guid Id {get; init;}
+    public string Name {get; init;}
+    public decimal Price {get; init;}
+    public DateTimeOffset CreatedDate {get; init;}
 }
+

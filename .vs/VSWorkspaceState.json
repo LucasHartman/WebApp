@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebApp"
+    "\\WebApp",
+    "\\WebApp\\Repo"
   ],
+  "SelectedNode": "\\WebApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
